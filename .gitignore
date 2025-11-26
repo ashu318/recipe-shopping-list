@@ -5,11 +5,17 @@
 /tmp
 /out-tsc
 /bazel-out
+/build/
+
+# Angular cache
+/.angular/
 
 # Node
 /node_modules
 npm-debug.log
 yarn-error.log
+yarn-debug.log
+
 
 # IDEs and editors
 .idea/
@@ -19,6 +25,11 @@ yarn-error.log
 *.launch
 .settings/
 *.sublime-workspace
+/*.suo
+/*.ntvs*
+/*.njsproj
+/*.sln
+/*.sw?
 
 # Visual Studio Code
 .vscode/*
@@ -40,3 +51,10 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Compiled output
+*.js.map
+
+# Environment files (optional if sensitive)
+src/environments/environment.prod.ts
+src/environments/environment.ts
