@@ -8,7 +8,9 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent {
   recipes: Recipe[] = [
-    new Recipe('A Test Recipe', 'This is a test', 'https://cdn.slowdownwiseup.co.uk/media/original_images/17169.jpeg.1280x0_q70.webp')
+    new Recipe('A Test Recipe', 'This is a test', 'https://cdn.slowdownwiseup.co.uk/media/original_images/17169.jpeg.1280x0_q70.webp'),
+    new Recipe('A Test Recipe', 'This is a test', 'https://cdn.slowdownwiseup.co.uk/media/original_images/17169.jpeg.1280x0_q70.webp'),
+
   ];
 
 }
